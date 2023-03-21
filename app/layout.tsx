@@ -38,6 +38,10 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Italianno&display=swap"
           rel="stylesheet"
         />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Italianno&family=Parisienne&display=swap"
+          rel="stylesheet"
+        ></link>
       </head>
       <body>
         {/* <Navbar /> */}

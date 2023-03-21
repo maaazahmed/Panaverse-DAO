@@ -11,12 +11,15 @@ module.exports = {
 
   theme: {
 
-
+    // font-family: 'Italianno', cursive;
+    // font-family: 'Parisienne', cursive;
+    
     fontFamily: {
       'audiowide': ['Audiowide', "cursive"],
       "ShareTech":["Share Tech"],
       "WireOne":["Faster One"],
-      'Italianno':['Italianno', "cursive"]
+      'Italianno':['Italianno', "cursive"],
+      "Parisienne":["Parisienne", "cursive"]
     },
     extend: {
         colors: {

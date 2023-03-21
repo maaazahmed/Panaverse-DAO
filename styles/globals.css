@@ -50,6 +50,11 @@ html {
   background-image: url(../assets/bgs/bg14.jpg);
 }
 
+.core-bg-custom-bg-image{
+  /* background-image: url(https://i.pinimg.com/originals/f5/db/d5/f5dbd50a542d8044fe55194d7bef1cb0.jpg); */
+  background-image: url(https://media.istockphoto.com/id/1405378443/vector/image-of-music-the-sparkling-light-and-musical-note-background-illustration.jpg?s=612x612&w=0&k=20&c=F68xWgo31l4oDzQeCTzt3SpEC2fXbXw0LkvzGzXJohE=);
+}
+
 
 /* .gradient--1 {
   --gradient-start: #D279EE;

@@ -29,8 +29,8 @@ const LandingPageIconCard = ({ img, mode }: LandingPageIconCardProps) => (
 );
 
 const Hero = ({ heading, message }: HeroProps) => (
-  <div className="flex flex-col  px-[10rem] min-h-[115vh] mb-0 bg-fixed bg-cover bg-center custom-img pt-[10rem]">
-    <div className=" absolute top-0 left-0 right-0 bottom-[-10rem] bg-black/80 backdrop-blur-xl  z-[2]" />
+  <div className="flex flex-col px-[10rem] min-h-[115vh] mb-0 bg-fixed bg-cover bg-center custom-img pt-[10rem]">
+    <div className=" absolute top-0 left-0 right-0 bottom-[-10rem] bg-black/80 backdrop-blur-xl z-[2]" />
     <div className="flex items-center">
       <div className=" w-[60%] text-white z-[2] ">
         <h2
@@ -133,7 +133,7 @@ const Hero = ({ heading, message }: HeroProps) => (
     </div>
 
     <div
-      className={`w-[100%] flex-col mt-[4.5rem] py-5 z-[2] flex items-center justify-center rounded backdrop-blur-xl ${gradientOverlay} px-[5rem]`}
+      className={`w-[100%] flex-col mt-[5rem] py-5 z-[2] flex items-center justify-center rounded backdrop-blur-xl ${gradientOverlay} px-[5rem]`}
     >
       <h3 className="font-audiowide italic font-extralight text-[1.7rem] text-[#fff] my-5 ">
       <span className={`text-transparent tracking-widest	 bg-clip-text ${gradient}`} >-</span> Version 6.0.0 - March 2023 <span className={`text-transparent tracking-widest	 bg-clip-text ${gradient}`} >-</span>

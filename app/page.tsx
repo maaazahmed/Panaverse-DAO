@@ -1,4 +1,10 @@
-import { Navbar, Hero, Services } from "../componant/index";
+import {
+  Navbar,
+  Hero,
+  Info,
+  CoreCourses,
+  SpecializedTracks,
+} from "../componant/index";
 
 export default function App() {
   return (
@@ -7,7 +13,9 @@ export default function App() {
         heading="Captur Photography"
         message="I capture moments in nature and keep them alive."
       />
-      <Services />
+      <Info />
+      <CoreCourses />
+      <SpecializedTracks />
     </div>
   );
 }
